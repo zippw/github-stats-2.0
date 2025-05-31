@@ -1,0 +1,28 @@
+{
+  "name": "github-stats-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "d": "nodemon ./src/index.ts",
+    "d_font": "nodemon ./font/index.js",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "zippw",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@yandex-cloud/function-types": "^2.1.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "npm": "^10.9.2",
+    "ts-node": "^10.9.2",
+    "fast-xml-parser": "^5.2.3",
+    "svg-path-parser": "^1.1.0"
+  },
+  "dependencies": {
+    "pug": "^3.0.3"
+  }
+}

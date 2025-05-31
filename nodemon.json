@@ -1,0 +1,5 @@
+{
+    "watch": ["src/**/*", "font/**/*"],
+    "ext": "ts,js,json,pug",
+    "ignore": "*.json"
+}
